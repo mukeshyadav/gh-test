@@ -27,6 +27,6 @@ jobs:
         run: |
           echo $GITHUB_SHA
           echo $GITHUB_REPOSITORY
-          ech0 $GITHUB_WORKSPACE
+          echo $GITHUB_WORKSPACE
           # echo "${{ github.token }}"
           # git clone git@github:$GITHUB_REPOSITORY
